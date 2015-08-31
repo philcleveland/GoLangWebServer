@@ -43,8 +43,23 @@ func main() {
 }
 
 func index(w http.ResponseWriter, r *http.Request) {
-	context := Context{Title: "Char Sheet", Static: StaticURL + "img/"}
-	err := templates.ExecuteTemplate(w, "index.html", context)
+	character := Character{Static: StaticURL + "img/",
+		CharacterName: "LionHeart",
+		ClassLevel:    "Fighter 1",
+		Background:    "Folk Hero",
+		PlayerName:    "Greg",
+		Faction:       "Harpers",
+		Race:          "Human",
+		Alignment:     "Lawful Good",
+		XP:            0,
+		DCI:           12345,
+		Strength:      15,
+		Dexterity:     13,
+		Constitution:  14,
+		Intelligence:  8,
+		Wisdom:        12,
+		Charisma:      10}
+	err := templates.ExecuteTemplate(w, "index.html", character)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
