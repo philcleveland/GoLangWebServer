@@ -1,0 +1,12 @@
+.image { 
+   position: absolute; 
+   width: 50%; /* for IE 6 */
+}
+
+#char_name { 
+   position: absolute; 
+   top: 205px; 
+   left: 195px; 
+   color: orange;
+   font-size: 36px;
+}
