@@ -10,3 +10,115 @@
    color: orange;
    font-size: 36px;
 }
+
+#class_level { 
+   position: absolute; 
+   top: 115px; 
+   left: 580px; 
+   color: orange;
+   font-size: 36px;
+}
+
+#background { 
+   position: absolute; 
+   top: 115px; 
+   left: 800px; 
+   color: orange;
+   font-size: 36px;
+}
+
+#playerName { 
+   position: absolute; 
+   top: 115px; 
+   left: 1100px; 
+   color: orange;
+   font-size: 36px;
+}
+
+#faction { 
+   position: absolute; 
+   top: 115px; 
+   left: 1400px; 
+   color: orange;
+   font-size: 36px;
+}
+
+#race { 
+   position: absolute; 
+   top: 195px; 
+   left: 580px; 
+   color: orange;
+   font-size: 36px;
+}
+
+#alignment { 
+   position: absolute; 
+   top: 195px; 
+   left: 800px; 
+   color: orange;
+   font-size: 36px;
+}
+
+#xp { 
+   position: absolute; 
+   top: 195px; 
+   left: 1100px; 
+   color: orange;
+   font-size: 36px;
+}
+
+#dci { 
+   position: absolute; 
+   top: 195px; 
+   left: 1400px; 
+   color: orange;
+   font-size: 36px;
+}
+
+#strength { 
+   position: absolute; 
+   top: 390px; 
+   left: 135px; 
+   color: orange;
+   font-size: 56px;
+}
+
+#dexterity { 
+   position: absolute; 
+   top: 590px; 
+   left: 135px; 
+   color: orange;
+   font-size: 56px;
+}
+
+#constitution { 
+   position: absolute; 
+   top: 790px; 
+   left: 135px; 
+   color: orange;
+   font-size: 56px;
+}
+
+#intelligence { 
+   position: absolute; 
+   top: 990px; 
+   left: 135px; 
+   color: orange;
+   font-size: 56px;
+}
+
+#wisdom { 
+   position: absolute; 
+   top: 1190px; 
+   left: 135px; 
+   color: orange;
+   font-size: 56px;
+}
+
+#charisma { 
+   position: absolute; 
+   top: 1390px; 
+   left: 135px; 
+   color: orange;
+   font-size: 56px;
+}
