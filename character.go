@@ -2,7 +2,6 @@ package main
 
 //Character is data for the character
 type Character struct {
-	Static        string
 	CharacterName string
 	ClassLevel    string
 	Background    string
